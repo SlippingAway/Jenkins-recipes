@@ -7,7 +7,7 @@ timestamps {
         }
 
         stage("middle") {
-            echo "Grilling"
+            echo "Steaming"
         }
 
         stage("end") {
