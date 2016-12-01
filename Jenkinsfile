@@ -7,7 +7,7 @@ timestamps {
         }
 
         stage("middle") {
-            echo "Steaming"
+            echo "Marinating again"
         }
 
         stage("end") {
