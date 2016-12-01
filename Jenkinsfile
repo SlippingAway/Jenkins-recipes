@@ -1,4 +1,4 @@
-properties([overrideIndexTriggers(true)])
+properties([overrideIndexTriggers(true), [$class: 'GitHubPushTrigger']])
 
 timestamps {
     node {
