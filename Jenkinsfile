@@ -5,7 +5,7 @@ timestamps {
         }
 
         stage("middle") {
-            echo "Marinating just a bit"
+            echo "Grilling"
         }
 
         stage("end") {
