@@ -1,3 +1,5 @@
+properties([overrideIndexTriggers(alwaysBuild)])
+
 timestamps {
     node {
         stage("start") {
