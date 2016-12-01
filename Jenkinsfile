@@ -6,10 +6,6 @@ timestamps {
             echo "Starting"
         }
 
-        stage("middle") {
-            echo "Doing something"
-        }
-
         stage("end") {
             echo "Finishing"
         }
