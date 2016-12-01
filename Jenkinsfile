@@ -1,4 +1,4 @@
-properties([overrideIndexTriggers(alwaysBuild)])
+properties([overrideIndexTriggers(true)])
 
 timestamps {
     node {
